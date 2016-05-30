@@ -4,38 +4,42 @@ body {
 }
 
 header {
+    margin: 0 auto;;
     width: 1200px;
     height: 100px;
-    margin: 0 auto;
 }
 
 h1 {
     height: 60px;
+    padding: 0 0 0 10px;
     line-height: 60px;
-    color: #22454f;
+    color: #22454F;
     background-color: #28a6cc;
-    padding-left: 10px;
-    margin: 0;
+    margin-left: 10px;
+    margin: 0px;
 }
 
 header ul {
+    width: 1200px;
+    height: 40px;
     margin: 0;
-    padding: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 header ul li {
     float: left;
     width: 300px;
     height: 40px;
-    color: #624bcc;
+    line-height: 40px;
+    color: #62b4cc;
     background-color: #394548;
     text-align: center;
-    list-style: none;
 }
 
 footer {
     width: 1200px;
     height: 50px;
     margin: 0 auto;
-    background-color: #28a6cc;
+    background-color: #0b303b;
 }

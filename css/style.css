@@ -1,4 +1,64 @@
+#wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#wrapper #main-image {
+    width: 1200px;
+    height: 400px;
+}
+
+#wrapper #info {
+    float: left;
+    width: 800px;
+    height: 300px;
+    margin: 20px 0 30px 30px;
+}
+
+#wrapper #info h2 {
+    width: 790px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 0 0 10px;
+    color: #0b303b;
+    background-color: #28a6cc;
+}
+
+#wrapper #info div {
+    width: 798px;
+    height: : 249px;
+    border: 1px solid #408ca3;
+}
+
+#wrapper #info div p {
+    font-size: 23px;
+    padding: 0 0 0 20px;
+    text-decoration: underline;
+}
+
+#wrapper #category {
+    float: right;
+    width: 150px;
+    margin: 20px 100px 30px 0;
+    border: 1px solid #408ca3
+}
+
+#wrapper #category li {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #394548;
+
+}
+
 #page-top {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
     width: 50px;
     height: 50px;
     background-color: #030304;
