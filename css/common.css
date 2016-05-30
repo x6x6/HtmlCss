@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    height: 60px;
+    line-height: 60px;
+    color: #22454f;
+    background-color: #28a6cc;
+    padding-left: 10px;
+    margin: 0;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    float: left;
+    width: 300px;
+    height: 40px;
+    color: #624bcc;
+    background-color: #394548;
+    text-align: center;
+    list-style: none;
+}
+
+footer {
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #28a6cc;
+}
