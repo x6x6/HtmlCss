@@ -1,0 +1,57 @@
+#wrapper {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#wrapper #contents {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#wrapper #contents .post {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#wrapper #contents .post h2 {
+    padding: 10px;
+    font-size: 25px;
+    line-height: 25px;
+    border-bottom: solid 3px #5D310C;
+}
+
+#wrapper #contents .post .fukuro {
+
+}
+
+#wrapper #contents .post .fukuro img {
+    display: block;
+    float: right;
+    margin: 10px 20px 20px 20px;
+    width: 350px;
+    height: 220px;
+}
+
+#wrapper #contents .post .write h3 {
+    padding-left: 10px;
+    margin: 0;
+}
+
+#wrapper p{
+    line-height: 1.5em;
+    letter-spacing:1.2pt;
+    font-size:15px;
+    padding: 5px 12px;
+}
+
+#wrapper #contents .post ul {
+    padding 0;
+    margin: 0;
+}
+
+#wrapper #contents .post ul li {
+    height: 30px;
+}
