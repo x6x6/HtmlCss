@@ -9,13 +9,16 @@
 #wrapper #main-image {
     width: 1200px;
     height: 400px;
+    background-image: url("./../img/main_image01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #wrapper #main-contents {
     margin-top: 50px;
     width: 1200px;
     height: 200px;
-
 }
 
 #wrapper #main-contents .contents {
@@ -30,7 +33,7 @@
     float: right;
     width: 800px;
     height: 300px;
-    margin: 50px 80px 30px 0;
+    margin: 50px 80px 120px 0;
 }
 
 #wrapper #info h2 {
