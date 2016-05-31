@@ -11,11 +11,26 @@
     height: 400px;
 }
 
-#wrapper #info {
+#wrapper #main-contents {
+    margin-top: 50px;
+    width: 1200px;
+    height: 200px;
+
+}
+
+#wrapper #main-contents .contents {
     float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #28a6cc;
+    margin-left: 80px;
+}
+
+#wrapper #info {
+    float: right;
     width: 800px;
     height: 300px;
-    margin: 20px 0 30px 30px;
+    margin: 50px 80px 30px 0;
 }
 
 #wrapper #info h2 {
@@ -38,12 +53,13 @@
     font-size: 23px;
     padding: 0 0 0 20px;
     text-decoration: underline;
+    color: #92e5fe;
 }
 
 #wrapper #category {
-    float: right;
+    float: left;
     width: 150px;
-    margin: 20px 100px 30px 0;
+    margin: 50px 0 30px 50px;
     border: 1px solid #408ca3
 }
 
