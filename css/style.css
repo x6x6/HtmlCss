@@ -21,14 +21,29 @@
     height: 200px;
 }
 
+
+
 #wrapper #main-contents .contents {
     float: left;
-    width: 200px;
-    height: 200px;
-    background-color: #5D310C;
+    width: 194px;
+    height: 194px;
     margin-left: 80px;
+    background-color: #222;
+    border: solid 3px #5D310C;
 }
 
+
+
+#wrapper #main-contents .contents img{
+    height: 175px;
+    width: 194px;
+}
+
+#wrapper #main-contents .contents p {
+    text-align: center;
+    color: #ddd;
+    margin-top: 0;
+}
 #wrapper #info {
     float: right;
     width: 800px;
